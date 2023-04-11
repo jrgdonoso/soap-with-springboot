@@ -1,0 +1,4 @@
+com\okanuzun\springbootsoapserver\configuration\WebServiceConfig.class
+com\okanuzun\springbootsoapserver\SpringBootSoapServerApplication.class
+jd\soap\webservice\ObjectFactory.class
+jd\soap\webservice\package-info.class

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.04.11 a las 12:45:27 AM CLT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://jd/soap/webservice">
+    <schemaBindings map="false">
+      <package name="jd.soap.webservice"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryByNameRequest">
+      <class ref="jd.soap.webservice.GetCountryByNameRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryByCurrencyRequest">
+      <class ref="jd.soap.webservice.GetCountryByCurrencyRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="jd.soap.webservice.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="jd.soap.webservice.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="jd.soap.webservice.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
